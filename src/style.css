@@ -65,7 +65,7 @@ button:active {
   color: #2e98e4 !important;
 }
 
-/* main content */
+/* Hero Section */
 .main-content {
   height: 80vh;
   display: flex;
@@ -99,6 +99,49 @@ button:active {
 }
 .fa-brands:hover {
   color: #1d87d5;
+}
+
+/* About Section */
+.about {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80vh; 
+}
+
+.about-container {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  gap: 4rem;
+  padding: 4rem 0;
+}
+
+.about img {
+  max-width: 100%;
+  height: auto;
+  margin-left: 7rem; 
+}
+
+.about-content {
+  font-size: 1.3rem;
+  line-height: 2.2rem;
+  font-weight: normal;
+  color: #333;
+  margin: 4rem;
+  padding: 5rem;
+}
+.about-content h1 {
+  font-weight: bold;
+}
+
+/* footer */
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px; 
+  background-color: #f0f0f0;
 }
 
 /* Mobile View */
@@ -146,5 +189,24 @@ button:active {
   }
   .fa-brands {
     margin-top: 2rem;
+  }
+  .about {
+    height: auto;
+  }
+
+  .about-container {
+    gap: 1rem;
+    padding: 1rem;
+  }
+
+  .about img {
+    margin: 1rem;
+  }
+
+  .about-content {
+    font-size: 1.2rem;
+    line-height: 1.4;
+    margin: 1rem 0;
+    padding: 1rem;
   }
 }
