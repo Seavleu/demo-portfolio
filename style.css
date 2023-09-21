@@ -106,13 +106,13 @@ button:active {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 80vh; 
+  height: 80vh;
 }
 
 .about-container {
   display: flex;
-  justify-content: center; 
-  align-items: center; 
+  justify-content: center;
+  align-items: center;
   gap: 4rem;
   padding: 4rem 0;
 }
@@ -120,7 +120,7 @@ button:active {
 .about img {
   max-width: 100%;
   height: auto;
-  margin-left: 7rem; 
+  margin-left: 7rem;
 }
 
 .about-content {
@@ -140,7 +140,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 80px; 
+  height: 80px;
   background-color: #f0f0f0;
 }
 
