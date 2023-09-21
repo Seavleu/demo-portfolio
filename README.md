@@ -1,5 +1,6 @@
 # About
 Responsive Portolio which consisted of four sections, however two sections (Home and About section) are developed so far.
+Get the project Figma design here: ![Portfolio.figma](https://www.figma.com/file/MX0h8i4kWA7MkuDsVQhv2S/Portfolio?type=design&node-id=0%3A1&mode=design&t=YkveeQYsKQTQh8ZO-1)
 
 ![Project 1](https://github.com/Seavleu/demo-portfolio/assets/86590058/bd238c22-c0e3-4c31-9294-e21d7e3a815c)
 
