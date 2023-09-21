@@ -1,9 +1,17 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: none;
+  box-sizing: border-box; /* Optional, it's a good practice for consistent box sizing */
 }
-
+body {
+  margin: 2rem;
+  background-color: #fff;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #000;
+  font-weight: 100;
+}
 a {
   text-decoration: none;
   color: black !important;
@@ -46,7 +54,7 @@ button:active {
   font-size: 2rem;
 }
 
-.nav-links-wrapper {
+.nav-link-wrapper {
   display: flex;
   flex: 0.3;
   justify-content: space-between;
@@ -54,14 +62,14 @@ button:active {
   transition: 0.3s;
 }
 
-.nav-links-wrapper a {
+.nav-link-wrapper a {
   font-weight: bold;
   transition: 0.3s;
 }
 #active {
   color: #2e98e4 !important;
 }
-.nav-links-wrapper a:hover {
+.nav-link-wrapper a:hover {
   color: #2e98e4 !important;
 }
 
@@ -106,21 +114,20 @@ button:active {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 80vh;
+  height: 90vh;
 }
-
 .about-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 4rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Two equal columns */
+  gap: 2rem;
   padding: 4rem 0;
+  align-items: center;
 }
 
-.about img {
+.about-img {
   max-width: 100%;
-  height: auto;
-  margin-left: 7rem;
+  height: 300px;
+  margin-left: 200px; /* Adjust the right margin to move it closer */
 }
 
 .about-content {
@@ -128,20 +135,39 @@ button:active {
   line-height: 2.2rem;
   font-weight: normal;
   color: #333;
-  margin: 4rem;
   padding: 5rem;
 }
+
 .about-content h1 {
   font-weight: bold;
+  margin-bottom: 2rem;
+}
+.btn {
+  background-color: #2e98e4;
+  padding: 0.5rem 2rem;
+  margin-top: 0.1rem !important;
+  border-radius: 2rem;
 }
 
+/* Project */
+.project {
+  text-align: center;
+  height: 90vh;
+  width: auto;
+}
+/* Contact */
+.contact {
+  text-align: center;
+  height: 90vh;
+  width: auto;
+}
 /* footer */
 footer {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 80px;
-  background-color: #f0f0f0;
+  /* background-color: #f0f0f0; */
 }
 
 /* Mobile View */
@@ -155,7 +181,7 @@ footer {
   .menu-icon {
     display: block !important;
   }
-  .nav-links-wrapper {
+  .nav-link-wrapper {
     position: fixed;
     top: 0;
     left: 0;
@@ -199,12 +225,15 @@ footer {
     padding: 1rem;
   }
 
-  .about img {
+  .about-container img {
     margin: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two equal columns */
+    padding: 4rem 0;
   }
 
   .about-content {
-    font-size: 1.2rem;
+    font-size: 1rem;
     line-height: 1.4;
     margin: 1rem 0;
     padding: 1rem;
