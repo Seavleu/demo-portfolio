@@ -3,7 +3,7 @@ Responsive Portolio which consisted of four sections, however two sections (Home
 
 ![Project 1](https://github.com/Seavleu/demo-portfolio/assets/86590058/bd238c22-c0e3-4c31-9294-e21d7e3a815c)
 
-![image](https://github.com/Seavleu/demo-portfolio/assets/86590058/9ca2b9e9-80b5-4e54-90dc-510cadc48945)
+![image](https://github.com/Seavleu/demo-portfolio/assets/86590058/06a0ed78-4e95-4cfa-b730-4421b6f89bd3)
 
 ![Project 3](https://github.com/Seavleu/demo-portfolio/assets/86590058/7d84b39a-57ff-4275-8402-24199945abd2)
 
